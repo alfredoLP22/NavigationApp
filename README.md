@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# NavigationApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the **NavigationApp**! This project is built with [Expo](https://expo.dev) using [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 📌 Technologies Used
 
-1. Install dependencies
+- **React Native**: For building the UI.
+- **Expo**: Simplifies development and deployment.
+- **React Navigation**: Manages navigation between screens.
+- **TypeScript**: Ensures type safety and maintainability.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Getting Started
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1. Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/alfredoLP22/NavigationApp.git
+cd NavigationApp
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Install Dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Run the Application
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+You can start the application using Expo:
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+This command will display a menu with options to run the app on different platforms:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Web**: Open in a browser.
+- **Android**: Run on an emulator or real device.
+- **iOS**: Run on a simulator or real device (macOS required).
+- **Expo Go**: Use the Expo Go app to preview your project.
+
+### 4. Running on Specific Platforms
+
+#### Web
+```bash
+npx expo start --web
+```
+
+#### Android (Using Emulator or Device)
+```bash
+npx expo run:android
+```
+
+#### iOS (Using Simulator or Device)
+```bash
+npx expo run:ios
+```
+> **Note:** You need a macOS system with Xcode installed to run the app on iOS.
+#### Project run on live
+https://navigationapp--0k3yalze74.expo.app/profile
